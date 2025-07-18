@@ -1,41 +1,43 @@
-# churn_predictor_app
-A Streamlit web app to predict customer churn for an e-commerce platform using a trained machine learning model.
-# E-Commerce Customer Churn Predictor
--> Features
+##E-Commerce Customer Churn Predictor
+This is a simple and effective Streamlit web app that predicts whether a customer is likely to churn from an e-commerce platform, using a machine learning model trained on customer behavior data.
 
-- Predicts customer churn using a trained machine learning model.
-- Takes input features like tenure, order count, session time, complaints, etc.
-- Shows a clear prediction with visual indicators.
-- Simple UI built with Streamlit.
-- Can be deployed on Streamlit Cloud for free.
+##Features
+-Predicts customer churn using a trained machine learning model.
+-Takes user inputs like tenure, order count, session time, complaints, etc.
+-Displays clear results with helpful visual indicators.
+-Allows CSV upload for quick exploratory data analysis (EDA).
+-Easy-to-use interface, built with Streamlit.
+-Can be run locally or deployed directly on Streamlit Cloud.
+-Model Information
 
-->Model Info
+##Algorithm used: Random Forest Classifier
 
-- **Algorithm Used:** Random Forest Classifier
-- **Preprocessing:** StandardScaler
-- **Trained On:** Synthetic or real-world customer behavior dataset
+##Preprocessing: StandardScaler
 
--> How to Run Locally
+##Trained on: A real-world or synthetic customer behavior dataset
 
-1. Clone the repo
-2. Install requirements
-3.  Run the app
--> Files
+##How to Run Locally
+1.Clone the repository
+git clone https://github.com/your-username/churn_predictor_app.git
+cd churn_predictor_app
+2.Install the required dependencies
+pip install -r requirements.txt
+3.Run the Streamlit app
+streamlit run churn_app.py
 
-- `churn_app.py` → Streamlit app code
-- `churn_model.pkl` → Trained ML model
-- `scaler.pkl` → Scaler used during model training
-- `requirements.txt` → Python package dependencies
-- `logo.png` → (Optional) Logo for branding
+##Project Structure
+1.File/Folder                                	Description
+2.churn_app.py	                    Main file for the Streamlit app
+3.churn_model.pkl                 	Trained churn prediction model
+4.scaler.pkl	                      Scaler used during training
+5.requirements.txt	                Python package dependencies
+6.logo.png	                        Optional branding logo for sidebar
 
--> Deployment
+##Deployment
+This app is hosted on Streamlit Cloud.
+Simply upload all project files and set churn_app.py as the main file to launch.
 
-Hosted on [Streamlit Cloud](https://streamlit.io/cloud)
-
----
-
-->uilt by:
-Shubhi Sharma | BTech CSE (2022-2026) | Birla Institute of Applied Sciences, Bhimtal
-  
-
-
+##About the Developer
+Shubhi Sharma
+BTech CSE (2022–2026)
+Birla Institute of Applied Sciences, Bhimtal
