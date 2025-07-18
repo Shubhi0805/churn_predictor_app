@@ -18,5 +18,24 @@ A Streamlit web app to predict customer churn for an e-commerce platform using a
 -> How to Run Locally
 
 1. Clone the repo
-2. Install requirements  
+2. Install requirements
+3.  Run the app
+-> Files
+
+- `churn_app.py` → Streamlit app code
+- `churn_model.pkl` → Trained ML model
+- `scaler.pkl` → Scaler used during model training
+- `requirements.txt` → Python package dependencies
+- `logo.png` → (Optional) Logo for branding
+
+-> Deployment
+
+Hosted on [Streamlit Cloud](https://streamlit.io/cloud)
+
+---
+
+->uilt by:
+Shubhi Sharma | BTech CSE (2022-2026) | Birla Institute of Applied Sciences, Bhimtal
+  
+
 
